@@ -1,0 +1,22 @@
+{
+  "name": "readhold-web",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node scripts/copy-fonts.mjs && tsc --noEmit && esbuild src/main.ts --bundle --format=esm --target=es2022 --minify --sourcemap --outfile=static/app.js",
+    "watch": "esbuild src/main.ts --bundle --format=esm --target=es2022 --sourcemap --outfile=static/app.js --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@fontsource/atkinson-hyperlegible": "5.1.1",
+    "@fontsource/bangers": "5.3.0",
+    "@fontsource/dela-gothic-one": "5.3.0",
+    "@fontsource/literata": "5.1.1",
+    "@fontsource/opendyslexic": "5.1.0",
+    "esbuild": "0.25.12",
+    "katex": "0.18.9",
+    "typescript": "5.7.3"
+  },
+  "private": true,
+  "license": "MIT"
+}

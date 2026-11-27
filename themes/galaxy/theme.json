@@ -1,0 +1,50 @@
+{
+  "name": "Galaxy",
+  "description": "A spiral galaxy turning slowly, with a glowing core, star-filled arms, colourful nebulae and distant galaxies. It brightens as you read; each card you review adds a star to your constellation.",
+  "progress": "bar",
+  "motion": "gentle",
+  "sound": null,
+  "ambient_sound": "hum",
+  "tokens": {
+    "light": {
+      "bg": "#e3ddf6",
+      "bg2": "#d0c5f0",
+      "panel": "#fbfaff",
+      "panel2": "#f1eefa",
+      "border": "#d4cfe9",
+      "text": "#231f33",
+      "muted": "#4f4966",
+      "accent": "#5b3fa0",
+      "accent_text": "#ffffff",
+      "pacer": "#e6e0f7",
+      "word": "#cdbff0",
+      "sand": "#b3a6dc",
+      "sand_dark": "#8576b8",
+      "claim": "#dbe5f6",
+      "evidence": "#dbede0",
+      "definition": "#ead9f5",
+      "confusing": "#f5dbdc",
+      "idea": "#f4edcd"
+    },
+    "dark": {
+      "bg": "#141128",
+      "bg2": "#1b1735",
+      "panel": "#1a1730",
+      "panel2": "#221e3b",
+      "border": "#353057",
+      "text": "#ebe8f7",
+      "muted": "#b4add0",
+      "accent": "#b9a2ff",
+      "accent_text": "#120f24",
+      "pacer": "#2d2752",
+      "word": "#463b7c",
+      "sand": "#8a7fc4",
+      "sand_dark": "#685d9e",
+      "claim": "#1f2f4d",
+      "evidence": "#203a33",
+      "definition": "#3a2752",
+      "confusing": "#4a2537",
+      "idea": "#3f3722"
+    }
+  }
+}

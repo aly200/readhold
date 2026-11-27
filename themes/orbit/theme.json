@@ -1,0 +1,22 @@
+{
+  "name": "Orbit",
+  "description": "Space, kept calm: deep navy with dim stars and slow nebulae, and a small solar system whose planets orbit slowly; Dawn is a pale lavender light version. Each step you read joins one more star of a constellation.",
+  "progress": "bar",
+  "motion": "gentle",
+  "sound": null,
+  "ambient_sound": "hum",
+  "tokens": {
+    "light": {
+      "bg": "#eceaf6", "bg2": "#f8f0e8", "panel": "#faf9fd", "panel2": "#f1eff8", "border": "#dedaee",
+      "text": "#211f3d", "muted": "#5a5878", "accent": "#5845c9", "accent_text": "#ffffff",
+      "pacer": "#e6e1fa", "word": "#d2caf6", "sand": "#c4bbee", "sand_dark": "#a89be4",
+      "claim": "#e1e8f7", "evidence": "#ddf0e6", "definition": "#eae2f8", "confusing": "#f6e0e3", "idea": "#f5efd4"
+    },
+    "dark": {
+      "bg": "#0d1124", "bg2": "#1c1a3c", "panel": "#151a30", "panel2": "#1b213b", "border": "#272e4c",
+      "text": "#dfe3f4", "muted": "#a2a9cc", "accent": "#a3b3f5", "accent_text": "#0d1124",
+      "pacer": "#2a2f58", "word": "#3a3f78", "sand": "#343d74", "sand_dark": "#2a3160",
+      "claim": "#1e2a4a", "evidence": "#1c3a33", "definition": "#30285a", "confusing": "#45243a", "idea": "#3b3524"
+    }
+  }
+}

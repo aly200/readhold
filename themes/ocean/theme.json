@@ -1,0 +1,50 @@
+{
+  "name": "Ocean",
+  "description": "Sunlit water and drifting bubbles, or the glow of the deep sea at night; a coral reef grows as you read.",
+  "progress": "bar",
+  "motion": "gentle",
+  "sound": null,
+  "ambient_sound": "waves",
+  "tokens": {
+    "light": {
+      "bg": "#bfe6ec",
+      "bg2": "#8fd0dc",
+      "panel": "#f4fbfc",
+      "panel2": "#e3f3f6",
+      "border": "#b4d8e0",
+      "text": "#0e2a36",
+      "muted": "#3d5e6a",
+      "accent": "#0b6178",
+      "accent_text": "#ffffff",
+      "pacer": "#d2eef3",
+      "word": "#a6dae5",
+      "sand": "#e3d3a8",
+      "sand_dark": "#b39a63",
+      "claim": "#d3e8f7",
+      "evidence": "#d3efe1",
+      "definition": "#e3dcf3",
+      "confusing": "#f6dad3",
+      "idea": "#f4edc6"
+    },
+    "dark": {
+      "bg": "#05121c",
+      "bg2": "#0a2532",
+      "panel": "#13222c",
+      "panel2": "#1a2c38",
+      "border": "#2a4250",
+      "text": "#dfeef2",
+      "muted": "#9dbbc5",
+      "accent": "#5ccfd6",
+      "accent_text": "#04161c",
+      "pacer": "#163a47",
+      "word": "#1e5161",
+      "sand": "#7d846c",
+      "sand_dark": "#555d4c",
+      "claim": "#1b3347",
+      "evidence": "#173a30",
+      "definition": "#2b2a47",
+      "confusing": "#45262b",
+      "idea": "#393720"
+    }
+  }
+}

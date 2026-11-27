@@ -1,0 +1,50 @@
+{
+  "name": "Rain",
+  "description": "Pixel-art rain over an empty city left long ago. As you read, ivy, rooftop trees and glowing mushrooms take the city back, spores (fireflies at night) drift up, and light breaks through the clouds.",
+  "progress": "bar",
+  "motion": "gentle",
+  "sound": null,
+  "ambient_sound": "rain",
+  "tokens": {
+    "light": {
+      "bg": "#cfd8df",
+      "bg2": "#b9c6d0",
+      "panel": "#f6f8fa",
+      "panel2": "#eaeff3",
+      "border": "#c3ced7",
+      "text": "#1f2a33",
+      "muted": "#4a5864",
+      "accent": "#2f5f86",
+      "accent_text": "#ffffff",
+      "pacer": "#dde8f2",
+      "word": "#b9d1e6",
+      "sand": "#9fb4c4",
+      "sand_dark": "#6f8798",
+      "claim": "#d8e6f5",
+      "evidence": "#d9ecdf",
+      "definition": "#e6def3",
+      "confusing": "#f3dcd6",
+      "idea": "#f2ecc9"
+    },
+    "dark": {
+      "bg": "#141a20",
+      "bg2": "#1c252d",
+      "panel": "#1d252c",
+      "panel2": "#252f37",
+      "border": "#34414c",
+      "text": "#e3eaf0",
+      "muted": "#a9b7c3",
+      "accent": "#8fb9dc",
+      "accent_text": "#10161b",
+      "pacer": "#2a3a49",
+      "word": "#36506a",
+      "sand": "#7f97aa",
+      "sand_dark": "#5b7184",
+      "claim": "#213649",
+      "evidence": "#22392c",
+      "definition": "#322a45",
+      "confusing": "#45282a",
+      "idea": "#3d3920"
+    }
+  }
+}

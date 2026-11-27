@@ -1,0 +1,50 @@
+{
+  "name": "Lanterns",
+  "description": "A lake under a sky that follows the real clock. The moon climbs as you read, and a lantern is lit for every card you review, every question you answer and every five minutes of a session.",
+  "progress": "bar",
+  "motion": "gentle",
+  "sound": null,
+  "ambient_sound": "crickets",
+  "tokens": {
+    "light": {
+      "bg": "#f4e2cf",
+      "bg2": "#e7c7b0",
+      "panel": "#fffaf3",
+      "panel2": "#f8eee1",
+      "border": "#e3d2bf",
+      "text": "#2c2433",
+      "muted": "#5c5063",
+      "accent": "#a3401c",
+      "accent_text": "#ffffff",
+      "pacer": "#fdebd0",
+      "word": "#f6d39b",
+      "sand": "#eaa76a",
+      "sand_dark": "#c9824a",
+      "claim": "#dde6f6",
+      "evidence": "#dcefd6",
+      "definition": "#eee0f4",
+      "confusing": "#f8dcd6",
+      "idea": "#f8efc6"
+    },
+    "dark": {
+      "bg": "#12173a",
+      "bg2": "#231f4b",
+      "panel": "#1b1f3b",
+      "panel2": "#252a4a",
+      "border": "#383e66",
+      "text": "#f3ebdc",
+      "muted": "#bcb6cc",
+      "accent": "#ffb86b",
+      "accent_text": "#1d1524",
+      "pacer": "#322c52",
+      "word": "#5c4130",
+      "sand": "#f0a35a",
+      "sand_dark": "#b9703c",
+      "claim": "#22355a",
+      "evidence": "#234232",
+      "definition": "#3f2d55",
+      "confusing": "#55292c",
+      "idea": "#4b4320"
+    }
+  }
+}

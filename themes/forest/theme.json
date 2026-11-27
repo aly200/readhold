@@ -1,0 +1,50 @@
+{
+  "name": "Forest",
+  "description": "Deep greens and warm paper. Leaves drift and light rays shift; trees grow along the bottom as you read.",
+  "progress": "bar",
+  "motion": "gentle",
+  "sound": null,
+  "ambient_sound": "wind-birds",
+  "tokens": {
+    "light": {
+      "bg": "#d5e6c9",
+      "bg2": "#bed9ad",
+      "panel": "#fbf8f0",
+      "panel2": "#f1ecdf",
+      "border": "#cdd3bf",
+      "text": "#24291f",
+      "muted": "#4f5846",
+      "accent": "#3d6b3a",
+      "accent_text": "#ffffff",
+      "pacer": "#e5eccf",
+      "word": "#c9da9f",
+      "sand": "#a9bf8f",
+      "sand_dark": "#7c9566",
+      "claim": "#d9e6f2",
+      "evidence": "#d7ebcf",
+      "definition": "#e8ddf2",
+      "confusing": "#f4d9cf",
+      "idea": "#f3ecc4"
+    },
+    "dark": {
+      "bg": "#13211a",
+      "bg2": "#1b2a1f",
+      "panel": "#1c2219",
+      "panel2": "#242c21",
+      "border": "#34402f",
+      "text": "#ebe6d6",
+      "muted": "#b3b39c",
+      "accent": "#9fcf8a",
+      "accent_text": "#0f1912",
+      "pacer": "#2e3a22",
+      "word": "#4a5d2c",
+      "sand": "#8fa874",
+      "sand_dark": "#6b8156",
+      "claim": "#213347",
+      "evidence": "#24402a",
+      "definition": "#3a2c48",
+      "confusing": "#4a2a25",
+      "idea": "#433c1f"
+    }
+  }
+}

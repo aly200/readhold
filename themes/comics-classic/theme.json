@@ -1,0 +1,23 @@
+{
+  "name": "Comics: Classic",
+  "description": "Ink lines, flat colour and halftone paper. White cover by day, black cover by night. The dots drift slowly; finishing a section earns a KA-POW.",
+  "progress": "bar",
+  "motion": "gentle",
+  "sound": null,
+  "look": "comics",
+  "look_variant": "classic",
+  "tokens": {
+    "light": {
+      "bg": "#fffaf0", "bg2": "#fff1c8", "panel": "#ffffff", "panel2": "#fff8e6", "border": "#111111",
+      "text": "#111111", "muted": "#4a4a4a", "accent": "#1846c7", "accent_text": "#ffffff",
+      "pacer": "#ffe38a", "word": "#ffd23f", "sand": "#e5332a", "sand_dark": "#b3241d",
+      "claim": "#dbe6ff", "evidence": "#d9f2d9", "definition": "#eadcff", "confusing": "#ffd9d3", "idea": "#fff0b0"
+    },
+    "dark": {
+      "bg": "#0b0b0f", "bg2": "#1c1a10", "panel": "#17171d", "panel2": "#202028", "border": "#f5f0e6",
+      "text": "#f5f0e6", "muted": "#bdb6a8", "accent": "#ffd23f", "accent_text": "#111111",
+      "pacer": "#4a3d10", "word": "#6b5a14", "sand": "#ffd23f", "sand_dark": "#e5332a",
+      "claim": "#1f2a4a", "evidence": "#1d3a26", "definition": "#33264a", "confusing": "#4a2420", "idea": "#3e3514"
+    }
+  }
+}

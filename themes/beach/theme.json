@@ -1,0 +1,50 @@
+{
+  "name": "Beach",
+  "description": "A sunny shore with soft waves, a swaying palm and gliding gulls, or a warm sunset by night; a sandcastle rises as you read.",
+  "progress": "bar",
+  "motion": "gentle",
+  "sound": null,
+  "ambient_sound": "shore",
+  "tokens": {
+    "light": {
+      "bg": "#fcefd6",
+      "bg2": "#f6dfb4",
+      "panel": "#fffcf5",
+      "panel2": "#fdf4e2",
+      "border": "#edd9b4",
+      "text": "#1e3440",
+      "muted": "#4d5d63",
+      "accent": "#0d6f82",
+      "accent_text": "#ffffff",
+      "pacer": "#ffeec4",
+      "word": "#ffdc95",
+      "sand": "#f0d49a",
+      "sand_dark": "#c9a35d",
+      "claim": "#d7edf8",
+      "evidence": "#d9f2e1",
+      "definition": "#e9e1f7",
+      "confusing": "#fcded4",
+      "idea": "#fff1c2"
+    },
+    "dark": {
+      "bg": "#141b2d",
+      "bg2": "#1f2b42",
+      "panel": "#1b2335",
+      "panel2": "#232e43",
+      "border": "#36445c",
+      "text": "#f6eee2",
+      "muted": "#c6bcab",
+      "accent": "#ffb67e",
+      "accent_text": "#1d1206",
+      "pacer": "#2b3652",
+      "word": "#3c4b6c",
+      "sand": "#8e7c5d",
+      "sand_dark": "#5f5241",
+      "claim": "#203449",
+      "evidence": "#1e3b34",
+      "definition": "#2e2b4b",
+      "confusing": "#46292c",
+      "idea": "#3e3723"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Sand",
+  "description": "Warm stone and sand. Still. The sand jar fills from real progress.",
+  "progress": "sand-jar",
+  "motion": "still",
+  "sound": null,
+  "tokens": {
+    "light": {
+      "bg": "#f2e5cd",
+      "bg2": "#e7d2ad",
+      "panel": "#fbf7ef",
+      "panel2": "#f3ecdf",
+      "border": "#d6c6aa",
+      "text": "#2b2520",
+      "muted": "#5f5346",
+      "accent": "#8a4f20",
+      "accent_text": "#ffffff",
+      "pacer": "#f1dcae",
+      "word": "#e2b965",
+      "sand": "#d9b77e",
+      "sand_dark": "#b98f51",
+      "claim": "#d6e6f5",
+      "evidence": "#d6ebd0",
+      "definition": "#eadbf5",
+      "confusing": "#f7d6ce",
+      "idea": "#f8ecbd"
+    },
+    "dark": {
+      "bg": "#211c17",
+      "bg2": "#28241f",
+      "panel": "#26221e",
+      "panel2": "#2e2924",
+      "border": "#3d362e",
+      "text": "#ede4d7",
+      "muted": "#b7a994",
+      "accent": "#e6aa70",
+      "accent_text": "#1b1815",
+      "pacer": "#4a3a24",
+      "word": "#7a5a2a",
+      "sand": "#c79f62",
+      "sand_dark": "#9c7a45",
+      "claim": "#233a50",
+      "evidence": "#28432a",
+      "definition": "#3d2c4d",
+      "confusing": "#4d2a24",
+      "idea": "#463d1f"
+    }
+  }
+}

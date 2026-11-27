@@ -1,0 +1,55 @@
+# Continuous integration (AI plan, milestone 4.3): on every push and pull request, on Windows, Linux and macOS.
+# 1. the red-team suite of docs/ai/PLAN.md section 6.9 (tests/test_redteam.py), first, so an attack that gets
+#    through is the first thing a change reports;
+# 2. every other test;
+# 3. the front end: TypeScript checked and bundled.
+# No test reaches a network service: AI calls go to fake servers inside the tests, and API keys live in an
+# in-memory credential store (tests/conftest.py). The workflow needs no secrets.
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    # Each action is pinned to the full commit SHA of a release (the tag in the comment), so a moved or hijacked tag
+    # cannot change what runs. To update one, change the SHA and the tag comment together.
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6.8.0
+
+      - name: Install the Python packages (as locked in uv.lock)
+        run: uv sync --locked
+
+      - name: Red-team suite (docs/ai/PLAN.md, section 6.9)
+        run: uv run pytest tests/test_redteam.py -q
+
+      - name: All tests
+        run: uv run pytest -q
+
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Front end, installed as locked, type-checked and built
+        working-directory: web
+        run: |
+          npm ci
+          npm run build

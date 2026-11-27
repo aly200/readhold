@@ -1,0 +1,21 @@
+{
+  "name": "Clean",
+  "description": "Modern and minimal: soft off-white or charcoal, one calm blue, thin lines and lots of space. A faint dot grid breathes slowly; a thin line along the top fills as you read.",
+  "progress": "bar",
+  "motion": "gentle",
+  "sound": null,
+  "tokens": {
+    "light": {
+      "bg": "#f4f3ef", "bg2": "#ecebe6", "panel": "#fbfbf8", "panel2": "#f3f2ee", "border": "#e3e1db",
+      "text": "#22252a", "muted": "#5d6168", "accent": "#3e62d0", "accent_text": "#ffffff",
+      "pacer": "#e4e9f8", "word": "#cdd8f5", "sand": "#a9bbec", "sand_dark": "#8aa1e2",
+      "claim": "#dde6f7", "evidence": "#ddefe1", "definition": "#e9e2f6", "confusing": "#f6e0db", "idea": "#f6efcf"
+    },
+    "dark": {
+      "bg": "#16181b", "bg2": "#1c1f23", "panel": "#1e2125", "panel2": "#24282d", "border": "#2d3136",
+      "text": "#e2e4e7", "muted": "#9da3ab", "accent": "#8fa6f5", "accent_text": "#111317",
+      "pacer": "#2a3247", "word": "#36415e", "sand": "#3f4c74", "sand_dark": "#333e60",
+      "claim": "#1f2c45", "evidence": "#1e3428", "definition": "#2d2742", "confusing": "#3e2724", "idea": "#3a3420"
+    }
+  }
+}

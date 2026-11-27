@@ -1,0 +1,50 @@
+{
+  "name": "Night sky",
+  "description": "Navy with warm text. A rare shooting star and the moon crossing the sky during your session; the moon fills as you read.",
+  "progress": "bar",
+  "motion": "gentle",
+  "sound": null,
+  "ambient_sound": "crickets",
+  "tokens": {
+    "light": {
+      "bg": "#dae2f2",
+      "bg2": "#c4cfe8",
+      "panel": "#fdfbf6",
+      "panel2": "#f4f1e8",
+      "border": "#d0d4e0",
+      "text": "#1d2235",
+      "muted": "#4b5168",
+      "accent": "#2e4a8a",
+      "accent_text": "#ffffff",
+      "pacer": "#f1e6c8",
+      "word": "#e6cf8e",
+      "sand": "#c9b98a",
+      "sand_dark": "#9c8c5e",
+      "claim": "#dbe5f5",
+      "evidence": "#dcede0",
+      "definition": "#e9e0f4",
+      "confusing": "#f4dcd8",
+      "idea": "#f5edc9"
+    },
+    "dark": {
+      "bg": "#0f1832",
+      "bg2": "#16203c",
+      "panel": "#141c33",
+      "panel2": "#1b2440",
+      "border": "#2c3858",
+      "text": "#f1e6cf",
+      "muted": "#c2b79e",
+      "accent": "#f0c674",
+      "accent_text": "#0b1226",
+      "pacer": "#2c3550",
+      "word": "#4a4430",
+      "sand": "#c9a865",
+      "sand_dark": "#9a7f45",
+      "claim": "#1e2f4f",
+      "evidence": "#1f3a33",
+      "definition": "#352a52",
+      "confusing": "#4a2733",
+      "idea": "#433a1e"
+    }
+  }
+}

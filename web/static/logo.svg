@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Readhold">
+<title>Readhold</title>
+<defs><linearGradient id="rh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3D5AFE"/><stop offset="1" stop-color="#8E2DE2"/></linearGradient></defs>
+<rect width="120" height="120" rx="30" fill="url(#rh)"/>
+<path d="M20 40 C36 33 49 35 60 44 C71 35 84 33 100 40 C100 40 100 90 100 90 C84 84 71 86 60 95 C49 86 36 84 20 90 C20 90 20 40 20 40 Z" fill="#FFFFFF"/>
+<circle cx="40" cy="66" r="7" fill="#FFB627"/>
+<circle cx="80" cy="60" r="7" fill="#2EC4B6"/>
+</svg>

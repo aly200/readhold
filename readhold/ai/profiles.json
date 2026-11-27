@@ -1,0 +1,17 @@
+{
+  "test": {"model": "small", "temperature": 0, "top_p": 1.0, "max_output_tokens": 32},
+  "resume": {"model": "small", "temperature": 0.2, "top_p": 0.9, "max_output_tokens": 700},
+  "explain": {"model": "strong", "temperature": 0.4, "top_p": 0.95, "max_output_tokens": 900},
+  "digest": {"model": "strong", "temperature": 0.2, "top_p": 0.9, "max_output_tokens": 900},
+  "digest_map": {"model": "small", "temperature": 0.2, "top_p": 0.9, "max_output_tokens": 500},
+  "ask": {"model": "strong", "temperature": 0, "top_p": 1.0, "max_output_tokens": 800},
+  "library": {"model": "strong", "temperature": 0, "top_p": 1.0, "max_output_tokens": 900},
+  "notes": {"model": "strong", "temperature": 0.5, "top_p": 0.95, "max_output_tokens": 2400},
+  "plan": {"model": "strong", "temperature": 0.3, "top_p": 0.95, "max_output_tokens": 1000},
+  "brainstorm": {"model": "strong", "temperature": 1.0, "top_p": 1.0, "min_p": 0.05, "max_output_tokens": 1500},
+  "brainstorm_critic": {"model": "strong", "temperature": 0, "top_p": 1.0, "max_output_tokens": 800},
+  "organize": {"model": "small", "temperature": 0.2, "top_p": 0.9, "max_output_tokens": 600},
+  "tidy": {"model": "strong", "temperature": 0.2, "top_p": 0.9, "max_output_tokens": 6000},
+  "chat": {"model": "strong", "temperature": 0.3, "top_p": 0.95, "max_output_tokens": 1500},
+  "notechat": {"model": "strong", "temperature": 0.6, "top_p": 0.95, "max_output_tokens": 6000}
+}

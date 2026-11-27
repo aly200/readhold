@@ -1,0 +1,50 @@
+{
+  "name": "Pixel art",
+  "description": "A retro palette with a gentle parallax pixel scene (the reading text keeps a normal font). The path lights up as you read, up to the flag at the end.",
+  "progress": "bar",
+  "motion": "gentle",
+  "sound": null,
+  "ambient_sound": "lofi",
+  "tokens": {
+    "light": {
+      "bg": "#d4e6f1",
+      "bg2": "#bcd9ec",
+      "panel": "#fffdf5",
+      "panel2": "#f5f1e3",
+      "border": "#d5d2c3",
+      "text": "#222034",
+      "muted": "#4f4b63",
+      "accent": "#b13e53",
+      "accent_text": "#ffffff",
+      "pacer": "#ffeec2",
+      "word": "#ffd27a",
+      "sand": "#e0b468",
+      "sand_dark": "#b07f3a",
+      "claim": "#d9e6f7",
+      "evidence": "#d6f0d4",
+      "definition": "#ead9f6",
+      "confusing": "#f8d8d6",
+      "idea": "#fbefb9"
+    },
+    "dark": {
+      "bg": "#1a1c2c",
+      "bg2": "#29304a",
+      "panel": "#222436",
+      "panel2": "#2b2e44",
+      "border": "#3e4363",
+      "text": "#f4f4f4",
+      "muted": "#b8bcd0",
+      "accent": "#ffcd75",
+      "accent_text": "#1a1c2c",
+      "pacer": "#3b3550",
+      "word": "#5d4b6e",
+      "sand": "#c69a5a",
+      "sand_dark": "#93703f",
+      "claim": "#243552",
+      "evidence": "#253f30",
+      "definition": "#3d2b55",
+      "confusing": "#522b35",
+      "idea": "#4a4022"
+    }
+  }
+}

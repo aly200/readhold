@@ -1,0 +1,50 @@
+{
+  "name": "Cloud",
+  "description": "Pale sky and white. Clouds drift slowly; the sky clears and the sun comes out as you read.",
+  "progress": "bar",
+  "motion": "gentle",
+  "sound": null,
+  "ambient_sound": "wind",
+  "tokens": {
+    "light": {
+      "bg": "#ddedfb",
+      "bg2": "#c6e1f6",
+      "panel": "#ffffff",
+      "panel2": "#f3f7fb",
+      "border": "#d2deea",
+      "text": "#1e2833",
+      "muted": "#4c5a68",
+      "accent": "#2a6aa8",
+      "accent_text": "#ffffff",
+      "pacer": "#e3eefa",
+      "word": "#bcd6f2",
+      "sand": "#a9c6e3",
+      "sand_dark": "#7b9cbf",
+      "claim": "#dce8f6",
+      "evidence": "#dcefe3",
+      "definition": "#e9e1f5",
+      "confusing": "#f6dfda",
+      "idea": "#f5efcf"
+    },
+    "dark": {
+      "bg": "#152031",
+      "bg2": "#1f2937",
+      "panel": "#1c2430",
+      "panel2": "#242e3b",
+      "border": "#334154",
+      "text": "#e6edf5",
+      "muted": "#aab8c8",
+      "accent": "#8cc0f0",
+      "accent_text": "#111821",
+      "pacer": "#273a52",
+      "word": "#34557a",
+      "sand": "#7d9cbd",
+      "sand_dark": "#5c7a99",
+      "claim": "#20354d",
+      "evidence": "#213b30",
+      "definition": "#33294a",
+      "confusing": "#47292c",
+      "idea": "#3e3a22"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Meadow",
+  "description": "A soft meadow: rolling hills drift by under a gentle sun, mist between them and a few petals by day; at dusk, a moon and dim fireflies. A flower opens along the bottom as you read.",
+  "progress": "bar",
+  "motion": "gentle",
+  "sound": null,
+  "ambient_sound": "breeze",
+  "tokens": {
+    "light": {
+      "bg": "#e9f0e4", "bg2": "#f2efe2", "panel": "#fbf9f1", "panel2": "#f3f1e6", "border": "#dfe5d3",
+      "text": "#263224", "muted": "#56634f", "accent": "#3b7448", "accent_text": "#ffffff",
+      "pacer": "#f4ebc6", "word": "#e9d98f", "sand": "#b3d1a2", "sand_dark": "#93bd80",
+      "claim": "#e0eaf3", "evidence": "#ddefd8", "definition": "#ece4f2", "confusing": "#f5e0da", "idea": "#f6eec9"
+    },
+    "dark": {
+      "bg": "#1a2133", "bg2": "#2c3a3f", "panel": "#1e2823", "panel2": "#24302a", "border": "#31443a",
+      "text": "#e2e9dd", "muted": "#a9b8a6", "accent": "#6ba779", "accent_text": "#0f1a13",
+      "pacer": "#3a4430", "word": "#4e5a35", "sand": "#3f6450", "sand_dark": "#33533f",
+      "claim": "#21324a", "evidence": "#234030", "definition": "#33294a", "confusing": "#462a2a", "idea": "#3f3a22"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Garden",
+  "description": "Soft green and cream. An occasional butterfly; a flower blooms for each question you answer.",
+  "progress": "bar",
+  "motion": "gentle",
+  "sound": null,
+  "ambient_sound": "breeze",
+  "tokens": {
+    "light": {
+      "bg": "#eff5dd",
+      "bg2": "#ddecc3",
+      "panel": "#fffdf6",
+      "panel2": "#f6f3e6",
+      "border": "#dbdcc5",
+      "text": "#2b2d24",
+      "muted": "#575b48",
+      "accent": "#8a4a6a",
+      "accent_text": "#ffffff",
+      "pacer": "#eef3d6",
+      "word": "#d8e6a8",
+      "sand": "#c6d69a",
+      "sand_dark": "#98ad69",
+      "claim": "#dbe7f4",
+      "evidence": "#dbeed2",
+      "definition": "#eedff3",
+      "confusing": "#f6dbd6",
+      "idea": "#f6efc8"
+    },
+    "dark": {
+      "bg": "#192117",
+      "bg2": "#232b1c",
+      "panel": "#22261c",
+      "panel2": "#2a2f23",
+      "border": "#3a4130",
+      "text": "#eceadb",
+      "muted": "#b9b9a0",
+      "accent": "#e7a3c3",
+      "accent_text": "#161b12",
+      "pacer": "#34401f",
+      "word": "#4d5f27",
+      "sand": "#9db473",
+      "sand_dark": "#788c55",
+      "claim": "#22364a",
+      "evidence": "#273f27",
+      "definition": "#3d2c47",
+      "confusing": "#4b2b28",
+      "idea": "#46401f"
+    }
+  }
+}
